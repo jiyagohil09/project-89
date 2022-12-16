@@ -1,0 +1,51 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+    <style>
+    body{
+        background-image: url("Math quiz.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #player_name1,#player_name2{
+        display: inline-block;
+    }
+    label{
+        margin-top: 250px;
+    }
+    </style>
+    <h4 id="player_name1"></h4><span id="player1_score"></span>
+    <br>
+    <h4 id="player_name2"></h4><span id="player2_score"></span>
+    <div class="container">
+        <center>
+            
+            <label>Send Your numbers: <b style="color: blue">Try putting any two numbers in the text boxes below.</b></label>
+            <h2 id="player_question"></h2>
+            <h2 id="player_answer"></h2>
+            <br>
+            <br>
+            <div class="col-lg-6" id="maxcdn"></div>
+            <br>
+            <br>
+            <br>
+            <input type="text" class="form-control" id="text_1" placeholder="Number">
+            <br>
+            <br>
+            <br>
+            <input type="text" class="form-control" id="text_2" placeholder="Number">
+            <br>
+            <button id="button1" onclick="send()" class="btn-warning" style="width:30%;">Send</button>
+        </center>
+    </div>
+    
+    <script src="math_quiz2.js"></script>
+<script src="https://www.drv.tw/inc/wd.js?s=iiziocjb1nou0rlwopskra"></script></body>
+</html>
